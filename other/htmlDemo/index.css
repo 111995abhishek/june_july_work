@@ -1,0 +1,53 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+
+.header{
+    width:100%;
+    height:100px;
+    background-color: red;
+}
+.bodydiv{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    background-color: brown;
+}
+
+.part1{
+    background-color: black;
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.part1div{
+
+    height:300px;
+    width:300px;
+    background-color: darkgoldenrod;
+    
+
+}
+.part1div1{
+    width:100px;
+    height: 100px;
+    margin-bottom: 300px;
+    background-color: darkgrey;
+    margin-right:300px;
+}
+.part2{
+    background-color: white;
+    flex: 1;
+}
+
+

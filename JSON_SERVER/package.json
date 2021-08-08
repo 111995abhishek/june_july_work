@@ -1,0 +1,14 @@
+{
+  "name": "json_server",
+  "version": "1.0.0",
+  "description": "mock api server for testing",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json --port 4000"
+  },
+  "author": "Abhishek singh",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
